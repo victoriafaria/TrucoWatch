@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2D7A77424F88C08003A4A20 /* TrucoWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E2D7A77324F88C08003A4A20 /* TrucoWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E2D7A77924F88C08003A4A20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D7A77824F88C08003A4A20 /* Assets.xcassets */; };
+		E2D7A78024F88C08003A4A20 /* TrucoWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E2D7A77F24F88C08003A4A20 /* TrucoWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E2D7A78524F88C08003A4A20 /* TrucoWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D7A78424F88C08003A4A20 /* TrucoWatchApp.swift */; };
+		E2D7A78724F88C08003A4A20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D7A78624F88C08003A4A20 /* ContentView.swift */; };
+		E2D7A78924F88C08003A4A20 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D7A78824F88C08003A4A20 /* NotificationController.swift */; };
+		E2D7A78B24F88C09003A4A20 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D7A78A24F88C09003A4A20 /* NotificationView.swift */; };
+		E2D7A78D24F88C09003A4A20 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D7A78C24F88C09003A4A20 /* ComplicationController.swift */; };
+		E2D7A78F24F88C09003A4A20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D7A78E24F88C09003A4A20 /* Assets.xcassets */; };
+		E2D7A79224F88C09003A4A20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D7A79124F88C09003A4A20 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2D7A77524F88C08003A4A20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2D7A76924F88C07003A4A20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2D7A77224F88C08003A4A20;
+			remoteInfo = "TrucoWatch WatchKit App";
+		};
+		E2D7A78124F88C08003A4A20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2D7A76924F88C07003A4A20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2D7A77E24F88C08003A4A20;
+			remoteInfo = "TrucoWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E2D7A79A24F88C09003A4A20 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E2D7A78024F88C08003A4A20 /* TrucoWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D7A79E24F88C09003A4A20 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E2D7A77424F88C08003A4A20 /* TrucoWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E2D7A76F24F88C07003A4A20 /* TrucoWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrucoWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D7A77324F88C08003A4A20 /* TrucoWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TrucoWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D7A77824F88C08003A4A20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2D7A77A24F88C08003A4A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2D7A77F24F88C08003A4A20 /* TrucoWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TrucoWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D7A78424F88C08003A4A20 /* TrucoWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrucoWatchApp.swift; sourceTree = "<group>"; };
+		E2D7A78624F88C08003A4A20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E2D7A78824F88C08003A4A20 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		E2D7A78A24F88C09003A4A20 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		E2D7A78C24F88C09003A4A20 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		E2D7A78E24F88C09003A4A20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2D7A79124F88C09003A4A20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2D7A79324F88C09003A4A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2D7A79424F88C09003A4A20 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2D7A77C24F88C08003A4A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2D7A76824F88C07003A4A20 = {
+			isa = PBXGroup;
+			children = (
+				E2D7A77724F88C08003A4A20 /* TrucoWatch WatchKit App */,
+				E2D7A78324F88C08003A4A20 /* TrucoWatch WatchKit Extension */,
+				E2D7A77024F88C07003A4A20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2D7A77024F88C07003A4A20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2D7A76F24F88C07003A4A20 /* TrucoWatch.app */,
+				E2D7A77324F88C08003A4A20 /* TrucoWatch WatchKit App.app */,
+				E2D7A77F24F88C08003A4A20 /* TrucoWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2D7A77724F88C08003A4A20 /* TrucoWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E2D7A77824F88C08003A4A20 /* Assets.xcassets */,
+				E2D7A77A24F88C08003A4A20 /* Info.plist */,
+			);
+			path = "TrucoWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		E2D7A78324F88C08003A4A20 /* TrucoWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E2D7A78424F88C08003A4A20 /* TrucoWatchApp.swift */,
+				E2D7A78624F88C08003A4A20 /* ContentView.swift */,
+				E2D7A78824F88C08003A4A20 /* NotificationController.swift */,
+				E2D7A78A24F88C09003A4A20 /* NotificationView.swift */,
+				E2D7A78C24F88C09003A4A20 /* ComplicationController.swift */,
+				E2D7A78E24F88C09003A4A20 /* Assets.xcassets */,
+				E2D7A79324F88C09003A4A20 /* Info.plist */,
+				E2D7A79424F88C09003A4A20 /* PushNotificationPayload.apns */,
+				E2D7A79024F88C09003A4A20 /* Preview Content */,
+			);
+			path = "TrucoWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		E2D7A79024F88C09003A4A20 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2D7A79124F88C09003A4A20 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2D7A76E24F88C07003A4A20 /* TrucoWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D7A79F24F88C09003A4A20 /* Build configuration list for PBXNativeTarget "TrucoWatch" */;
+			buildPhases = (
+				E2D7A76D24F88C07003A4A20 /* Resources */,
+				E2D7A79E24F88C09003A4A20 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2D7A77624F88C08003A4A20 /* PBXTargetDependency */,
+			);
+			name = TrucoWatch;
+			productName = TrucoWatch;
+			productReference = E2D7A76F24F88C07003A4A20 /* TrucoWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		E2D7A77224F88C08003A4A20 /* TrucoWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D7A79B24F88C09003A4A20 /* Build configuration list for PBXNativeTarget "TrucoWatch WatchKit App" */;
+			buildPhases = (
+				E2D7A77124F88C08003A4A20 /* Resources */,
+				E2D7A79A24F88C09003A4A20 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2D7A78224F88C08003A4A20 /* PBXTargetDependency */,
+			);
+			name = "TrucoWatch WatchKit App";
+			productName = "TrucoWatch WatchKit App";
+			productReference = E2D7A77324F88C08003A4A20 /* TrucoWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E2D7A77E24F88C08003A4A20 /* TrucoWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2D7A79724F88C09003A4A20 /* Build configuration list for PBXNativeTarget "TrucoWatch WatchKit Extension" */;
+			buildPhases = (
+				E2D7A77B24F88C08003A4A20 /* Sources */,
+				E2D7A77C24F88C08003A4A20 /* Frameworks */,
+				E2D7A77D24F88C08003A4A20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TrucoWatch WatchKit Extension";
+			productName = "TrucoWatch WatchKit Extension";
+			productReference = E2D7A77F24F88C08003A4A20 /* TrucoWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2D7A76924F88C07003A4A20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E2D7A76E24F88C07003A4A20 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E2D7A77224F88C08003A4A20 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E2D7A77E24F88C08003A4A20 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = E2D7A76C24F88C07003A4A20 /* Build configuration list for PBXProject "TrucoWatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2D7A76824F88C07003A4A20;
+			productRefGroup = E2D7A77024F88C07003A4A20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2D7A76E24F88C07003A4A20 /* TrucoWatch */,
+				E2D7A77224F88C08003A4A20 /* TrucoWatch WatchKit App */,
+				E2D7A77E24F88C08003A4A20 /* TrucoWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2D7A76D24F88C07003A4A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D7A77124F88C08003A4A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D7A77924F88C08003A4A20 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D7A77D24F88C08003A4A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D7A79224F88C09003A4A20 /* Preview Assets.xcassets in Resources */,
+				E2D7A78F24F88C09003A4A20 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2D7A77B24F88C08003A4A20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D7A78924F88C08003A4A20 /* NotificationController.swift in Sources */,
+				E2D7A78724F88C08003A4A20 /* ContentView.swift in Sources */,
+				E2D7A78D24F88C09003A4A20 /* ComplicationController.swift in Sources */,
+				E2D7A78524F88C08003A4A20 /* TrucoWatchApp.swift in Sources */,
+				E2D7A78B24F88C09003A4A20 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2D7A77624F88C08003A4A20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2D7A77224F88C08003A4A20 /* TrucoWatch WatchKit App */;
+			targetProxy = E2D7A77524F88C08003A4A20 /* PBXContainerItemProxy */;
+		};
+		E2D7A78224F88C08003A4A20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2D7A77E24F88C08003A4A20 /* TrucoWatch WatchKit Extension */;
+			targetProxy = E2D7A78124F88C08003A4A20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E2D7A79524F88C09003A4A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2D7A79624F88C09003A4A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2D7A79824F88C09003A4A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TrucoWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 76DX35F6T7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TrucoWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Faria.Victoria.TrucoWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		E2D7A79924F88C09003A4A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TrucoWatch WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 76DX35F6T7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TrucoWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Faria.Victoria.TrucoWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		E2D7A79C24F88C09003A4A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76DX35F6T7;
+				IBSC_MODULE = TrucoWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "TrucoWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Faria.Victoria.TrucoWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		E2D7A79D24F88C09003A4A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 76DX35F6T7;
+				IBSC_MODULE = TrucoWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "TrucoWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = Faria.Victoria.TrucoWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		E2D7A7A024F88C09003A4A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76DX35F6T7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Faria.Victoria.TrucoWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E2D7A7A124F88C09003A4A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76DX35F6T7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Faria.Victoria.TrucoWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2D7A76C24F88C07003A4A20 /* Build configuration list for PBXProject "TrucoWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D7A79524F88C09003A4A20 /* Debug */,
+				E2D7A79624F88C09003A4A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2D7A79724F88C09003A4A20 /* Build configuration list for PBXNativeTarget "TrucoWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D7A79824F88C09003A4A20 /* Debug */,
+				E2D7A79924F88C09003A4A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2D7A79B24F88C09003A4A20 /* Build configuration list for PBXNativeTarget "TrucoWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D7A79C24F88C09003A4A20 /* Debug */,
+				E2D7A79D24F88C09003A4A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2D7A79F24F88C09003A4A20 /* Build configuration list for PBXNativeTarget "TrucoWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D7A7A024F88C09003A4A20 /* Debug */,
+				E2D7A7A124F88C09003A4A20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2D7A76924F88C07003A4A20 /* Project object */;
+}
